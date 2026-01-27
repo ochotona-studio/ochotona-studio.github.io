@@ -98,7 +98,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # 사이드바에 표시되는 아바타 이미지 (로컬 또는 CORS 리소스 지원)
-avatar: /assets/img/avatar.jpg
+avatar: /assets/img/avatar.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -216,8 +216,9 @@ exclude:
   - "*.config.js"
   - "package*.json"
 
+# jekyll-archives 비활성화 (categories, tags 페이지 미사용)
 jekyll-archives:
-  enabled: [categories, tags]
+  enabled: []
   layouts:
     category: category
     tag: tag

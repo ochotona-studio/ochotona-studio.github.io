@@ -2,8 +2,6 @@
 title: "aura:pureplay - 순수한 음악 재생에 집중하는 MP3 플레이어"
 description: "복잡한 기능 없이 음악 파일 재생에 필요한 핵심 기능만을 담은 오디오 플레이어 앱입니다. 라이트/다크 모드, 슬립 타이머 지원."
 date: 2026-01-27 17:00:00 +0900
-categories: [Apps]
-tags: [android, mp3-player, music]
 image:
   path: /assets/img/apps/pureplay/screenshot_player.png
   alt: aura:pureplay 플레이어 화면
