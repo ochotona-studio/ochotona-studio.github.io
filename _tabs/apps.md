@@ -2,7 +2,7 @@
 # 앱 소개 탭 설정
 icon: fas fa-mobile-alt
 title: Apps
-order: 5
+order: 2
 ---
 
 # aura:pureplay
