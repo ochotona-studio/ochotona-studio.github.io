@@ -1,6 +1,8 @@
 ---
 layout: page
-title: Terms & Conditions - aura:pureplay
+title: Terms
+icon: fas fa-file-contract
+order: 5
 permalink: /terms/pureplay/
 ---
 

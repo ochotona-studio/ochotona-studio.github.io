@@ -1,6 +1,8 @@
 ---
 layout: page
-title: Privacy Policy - aura:pureplay
+title: Privacy
+icon: fas fa-user-shield
+order: 4
 permalink: /privacy/pureplay/
 ---
 
