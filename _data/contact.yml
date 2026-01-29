@@ -1,40 +1,20 @@
-#  The contact options.
+#  사이드바 하단에 표시되는 소셜 링크 설정
+#  라이트/다크 모드 토글은 자동으로 표시되며, 아래는 추가 아이콘들
 
+# GitHub 링크
 - type: github
   icon: "fab fa-github"
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
-
+# 이메일 링크
 - type: email
   icon: "fas fa-envelope"
-  noblank: true # open link in current tab
+  noblank: true # 현재 탭에서 열기
 
-- type: rss
-  icon: "fas fa-rss"
-  noblank: true
-# Uncomment and complete the url below to enable more contact options
-#
-# - type: mastodon
-#   icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
-#   url:  ''                  # Fill with your Mastodon account page, rel="me" will be applied for verification
-#
-# - type: linkedin
-#   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
-#   url:  ''                  # Fill with your Linkedin homepage
-#
-# - type: stack-overflow
-#   icon: 'fab fa-stack-overflow'
-#   url:  ''                  # Fill with your stackoverflow homepage
-#
-# - type: bluesky
-#   icon: 'fa-brands fa-bluesky'
-#   url: ''                   # Fill with your Bluesky profile link
-#
-# - type: reddit
-#   icon: 'fa-brands fa-reddit'
-#   url: ''                   # Fill with your Reddit profile link
-#
-# - type: threads
-#   icon: 'fa-brands fa-threads'
-#   url: ''                   # Fill with your Threads profile link
+# Twitter/X는 비활성화됨 (주석 처리)
+# - type: twitter
+#   icon: "fa-brands fa-x-twitter"
+
+# RSS 피드는 비활성화됨 (주석 처리)
+# - type: rss
+#   icon: "fas fa-rss"
+#   noblank: true

@@ -1,0 +1,70 @@
+---
+layout: default
+---
+
+{% include lang.html %}
+
+<!-- Apps 페이지 헤더 -->
+<header class="page-header">
+  <h1>Apps</h1>
+</header>
+
+<!-- 앱 목록을 카드 형태로 표시 -->
+<div id="post-list" class="flex-grow-1 px-xl-1">
+  {% for app in site.data.apps %}
+  <article class="card-wrapper card">
+    <a
+      href="{{ app.url | relative_url }}"
+      class="post-preview row g-0 flex-md-row-reverse"
+    >
+      {% assign card_body_col = '12' %} {% if app.image %}
+      <div class="col-md-5">
+        <!-- 앱 미리보기 이미지 - 최대 높이 제한으로 Home과 동일한 카드 크기 유지 -->
+        <img
+          src="{{ app.image | relative_url }}"
+          alt="{{ app.title }} 스크린샷"
+          style="
+            max-height: 200px;
+            width: 100%;
+            object-fit: cover;
+            border-radius: 0.75rem;
+          "
+        />
+      </div>
+      {% assign card_body_col = '7' %} {% endif %}
+
+      <div class="col-md-{{ card_body_col }}">
+        <div class="card-body d-flex flex-column">
+          <!-- 앱 제목 -->
+          <h1 class="card-title my-2 mt-md-0">{{ app.title }}</h1>
+
+          <!-- 앱 설명 -->
+          <div class="card-text content mt-0 mb-3">
+            <p>{{ app.description }}</p>
+          </div>
+
+          <!-- 앱 메타 정보 -->
+          <div class="post-meta flex-grow-1 d-flex align-items-end">
+            <div class="me-auto">
+              <!-- 앱 상태 (출시, 준비중 등) -->
+              {% if app.status %}
+              <i class="fas fa-info-circle fa-fw me-1"></i>
+              <span>{{ app.status }}</span>
+              {% endif %}
+
+              <!-- 앱 카테고리 -->
+              {% if app.category %}
+              <i class="far fa-folder-open fa-fw me-1 ms-3"></i>
+              <span>{{ app.category }}</span>
+              {% endif %}
+            </div>
+          </div>
+          <!-- .post-meta -->
+        </div>
+        <!-- .card-body -->
+      </div>
+    </a>
+  </article>
+  {% endfor %}
+</div>
+<!-- #post-list -->

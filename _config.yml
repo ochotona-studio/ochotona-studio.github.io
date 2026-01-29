@@ -26,10 +26,10 @@ description: >- # SEO 메타 태그 및 Atom 피드에 사용되는 설명
 url: "https://ochotona-studio.github.io"
 
 github:
-  username: github_username # change to your GitHub username
+  username: ochotona-studio # GitHub 사용자명
 
 twitter:
-  username: twitter_username # change to your Twitter username
+  username: # Twitter 비활성화 (빈 값으로 설정)
 
 social:
   # Change to your full name.
@@ -37,12 +37,8 @@ social:
   name: ochotona-studio
   email: by.ochotona@gmail.com # change to your email address
   links:
-    # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    # GitHub 링크만 유지 (첫 번째 요소가 저작권 소유자 링크로 사용됨)
+    - https://github.com/ochotona-studio
 
 # Site Verification Settings
 webmaster_verifications:
