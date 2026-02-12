@@ -1,6 +1,14 @@
 # 앱 목록 데이터 파일
 # 각 앱의 정보를 정의하여 Apps 페이지에서 카드 형태로 표시
 
+# HayDo (헤이두) - TO-DO 앱
+- title: "HayDo (헤이두)"
+  description: "귀여운 북방우는토끼와 함께 목표를 세우고 처리해나가는 TO-DO 앱. 심플하지만 강력한 목표 달성 도우미."
+  url: "/apps/haydo/"
+  image: "/assets/img/apps/haydo/screenshot_1.png"
+  status: "출시 준비중"
+  category: "생산성"
+
 # aura:pureplay - MP3 플레이어 앱
 - title: "aura:pureplay"
   description: "순수하게 음악 재생에 집중하는 MP3 플레이어. 복잡한 기능 없이 음악 파일 재생에 필요한 핵심 기능만을 담았습니다."

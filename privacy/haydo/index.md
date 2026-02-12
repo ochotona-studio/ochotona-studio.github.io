@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Privacy Policy - aura:pureview
-permalink: /privacy/pureview/
+title: Privacy Policy - HayDo
+permalink: /privacy/haydo/
 ---
 
 ## Privacy Policy
 
-This privacy policy applies to the **aura:pureview (아우라 퓨어뷰)** app (hereby referred to as "Application") for mobile devices that was created by **Ochotona Studio** (hereby referred to as "Service Provider") as a Freemium service. This service is intended for use "AS IS".
+This privacy policy applies to the **HayDo (헤이두)** app (hereby referred to as "Application") for mobile devices that was created by **Ochotona Studio** (hereby referred to as "Service Provider") as a Freemium service. This service is intended for use "AS IS".
 
 ### Information Collection and Use
 
@@ -16,13 +16,11 @@ The Application collects information when you download and use it. This informat
 * The pages of the Application that you visit, the time and date of your visit, the time spent on those pages
 * The time spent on the Application
 * The operating system you use on your mobile device
-* **Photos and Media**: The Application accesses photos and media files stored on your device to display them on the digital frame. This data is processed locally on your device and is not uploaded to our servers unless you explicitly utilize the cloud sync feature.
 
 The Application does not gather precise information about the location of your mobile device.
 
-The Application collects your device's location, which helps the Service Provider determine your approximate geographical location. This data is used to provide local weather information displayed on the digital frame and make use of in below ways:
+The Application collects your device's location, which helps the Service Provider determine your approximate geographical location and make use of in below ways:
 
-* **Weather Services**: To display current weather conditions and forecasts based on your location.
 * **Geolocation Services**: The Service Provider utilizes location data to provide features such as personalized content, relevant recommendations, and location-based services.
 * **Analytics and Improvements**: Aggregated and anonymized location data helps the Service Provider to analyze user behavior, identify trends, and improve the overall performance and functionality of the Application.
 * **Third-Party Services**: Periodically, the Service Provider may transmit anonymized location data to external services. These services assist them in enhancing the Application and optimizing their offerings.
@@ -84,7 +82,7 @@ If you have any questions regarding privacy while using the Application, or have
 
 ## 개인정보처리방침 (Privacy Policy)
 
-본 개인정보처리방침은 **Ochotona Studio**(이하 "서비스 제공자")가 개발한 모바일 기기용 **aura:pureview (아우라 퓨어뷰)** 앱(이하 "애플리케이션")에 적용됩니다. 본 서비스는 부분 유료화(Freemium) 서비스로 제공되며, "있는 그대로(AS IS)" 사용하도록 의도되었습니다.
+본 개인정보처리방침은 **Ochotona Studio**(이하 "서비스 제공자")가 개발한 모바일 기기용 **HayDo (헤이두)** 앱(이하 "애플리케이션")에 적용됩니다. 본 서비스는 부분 유료화(Freemium) 서비스로 제공되며, "있는 그대로(AS IS)" 사용하도록 의도되었습니다.
 
 ### 정보 수집 및 이용
 
@@ -94,13 +92,11 @@ If you have any questions regarding privacy while using the Application, or have
 * 귀하가 방문한 애플리케이션 페이지, 방문 날짜 및 시간, 해당 페이지에서 보낸 시간
 * 애플리케이션 사용 시간
 * 귀하가 모바일 기기에서 사용하는 운영체제
-* **사진 및 미디어**: 애플리케이션은 디지털 액자에 이미지를 표시하기 위해 기기에 저장된 사진 및 미디어 파일에 접근합니다. 이 데이터는 귀하의 기기에서 로컬로 처리되며, 귀하가 클라우드 동기화 기능을 명시적으로 사용하지 않는 한 서버로 전송되지 않습니다.
 
 애플리케이션은 귀하의 모바일 기기에 대한 정밀한 위치 정보를 수집하지 않습니다.
 
-단, 애플리케이션은 귀하의 대략적인 지리적 위치를 파악하기 위해 기기 위치 관련 정보(IP 주소 등)를 수집할 수 있습니다. 이 데이터는 디지털 액자에 표시되는 지역 날씨 정보를 제공하기 위해 사용되며, 다음과 같은 방식으로 활용됩니다.
+단, 애플리케이션은 귀하의 대략적인 지리적 위치를 파악하기 위해 기기 위치 관련 정보(IP 주소 등)를 수집할 수 있으며, 이는 다음과 같은 방식으로 활용됩니다.
 
-* **날씨 서비스**: 귀하의 위치를 기반으로 현재 날씨 상태 및 예보를 표시하기 위해 사용됩니다.
 * **지리적 위치 서비스**: 개인화된 콘텐츠, 관련 추천 및 위치 기반 서비스를 제공하기 위해 위치 데이터를 활용합니다.
 * **분석 및 개선**: 집계되고 익명화된 위치 데이터는 사용자 행동 분석, 트렌드 파악, 애플리케이션의 전반적인 성능 및 기능 개선에 도움을 줍니다.
 * **제3자 서비스**: 서비스 제공자는 애플리케이션 개선 및 서비스 최적화를 위해 익명화된 위치 데이터를 주기적으로 외부 서비스에 전송할 수 있습니다.
