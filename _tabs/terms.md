@@ -13,3 +13,5 @@ Select an application to view its Terms & Conditions:
 ## Applications
 
 *   **[aura:pureplay](/terms/pureplay/)**
+*   **[aura:pureview](/terms/pureview/)**
+*   **[HayDo (헤이두)](/terms/haydo/)**
