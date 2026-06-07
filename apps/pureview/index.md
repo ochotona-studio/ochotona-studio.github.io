@@ -7,36 +7,57 @@ permalink: /apps/pureview/
 
 # aura:pureview
 
-**깔끔하고 빠른 이미지 뷰어**
+**사진 앨범을 디지털 액자처럼 감상하는 이미지 뷰어**
 
-aura:pureview는 이름 그대로 '순수한 보기(Pure View)'에 집중한 이미지 뷰어 앱입니다.
-복잡한 편집 기능 없이 이미지 보기에 필요한 핵심 기능만을 담았습니다.
+aura:pureview는 이름 그대로 '순수한 보기(Pure View)'에 집중한 사진 감상 앱입니다.
+원하는 앨범을 선택하고, 시계와 촬영 정보를 곁들인 디지털 액자처럼 이미지를 감상할 수 있습니다.
 
 ---
 
 ## ✨ 주요 기능
 
-### 🖼️ 폴더 기반 이미지 탐색
-- 기기에 저장된 이미지 파일을 폴더별로 탐색
-- 빠른 썸네일 로딩
+### 🖼️ 앨범 기반 사진 선택
+- 기기에 저장된 사진 앨범을 한눈에 탐색
+- 선택한 앨범의 사진 개수를 확인하고 바로 재생
 
-### 🔍 부드러운 확대/축소
-- 핀치 줌과 더블 탭으로 이미지 확대
-- 고해상도 이미지도 빠르게 렌더링
+### 🖼️ 디지털 액자 모드
+- 세로 화면과 가로 화면을 모두 지원
+- 사진 비율에 맞춰 깔끔하게 표시하는 화면 맞춤 옵션 제공
 
-### 🌓 라이트 / 다크 모드 지원
-- 사용 환경에 맞게 테마 전환 가능
-- 눈의 피로를 줄이는 다크 모드 제공
+### 🕒 시계 및 촬영 정보 표시
+- 사진 위에 시계를 함께 표시
+- 카메라 모델, 초점거리, 조리개, 셔터속도, ISO 등 EXIF 정보 표시 지원
 
-### 🖱️ 직관적인 제스처
-- 스와이프로 이전/다음 이미지 탐색
-- 간편한 공유 기능
+### ⚙️ 화면별 맞춤 설정
+- 세로 화면과 가로 화면을 각각 설정
+- 시계 스타일, EXIF 정보 표시, 화면 맞춤 방식을 원하는 대로 조정
 
 ---
 
 ## 📱 스크린샷
 
-*개발 중인 앱으로, 스크린샷은 추후 업데이트 예정입니다.*
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; align-items: start;">
+  <figure style="margin: 0;">
+    <img src="/assets/img/apps/pureview/screenshot_album.jpeg" alt="aura:pureview 앨범 선택 화면" style="width: 100%; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+    <figcaption style="text-align: center; margin-top: 8px;">앨범 선택</figcaption>
+  </figure>
+  <figure style="margin: 0;">
+    <img src="/assets/img/apps/pureview/screenshot_frame_portrait.jpeg" alt="aura:pureview 세로 액자 화면" style="width: 100%; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+    <figcaption style="text-align: center; margin-top: 8px;">세로 액자 화면</figcaption>
+  </figure>
+  <figure style="margin: 0;">
+    <img src="/assets/img/apps/pureview/screenshot_frame_landscape.jpeg" alt="aura:pureview 가로 액자 화면" style="width: 100%; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+    <figcaption style="text-align: center; margin-top: 8px;">가로 액자 화면</figcaption>
+  </figure>
+  <figure style="margin: 0;">
+    <img src="/assets/img/apps/pureview/screenshot_settings_portrait.jpeg" alt="aura:pureview 세로 화면 설정" style="width: 100%; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+    <figcaption style="text-align: center; margin-top: 8px;">세로 화면 설정</figcaption>
+  </figure>
+  <figure style="margin: 0;">
+    <img src="/assets/img/apps/pureview/screenshot_settings_landscape.jpeg" alt="aura:pureview 가로 화면 설정" style="width: 100%; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+    <figcaption style="text-align: center; margin-top: 8px;">가로 화면 설정</figcaption>
+  </figure>
+</div>
 
 ---
 

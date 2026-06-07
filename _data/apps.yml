@@ -14,13 +14,13 @@
   description: "순수하게 음악 재생에 집중하는 MP3 플레이어. 복잡한 기능 없이 음악 파일 재생에 필요한 핵심 기능만을 담았습니다."
   url: "/apps/pureplay/"
   image: "/assets/img/apps/pureplay/screenshot_player.png"
-  status: "출시 준비중"
+  status: "Google Play 출시"
   category: "음악"
 
 # aura:pureview - 이미지 뷰어 앱
 - title: "aura:pureview"
-  description: "깔끔하고 빠른 이미지 뷰어. 복잡한 기능 없이 이미지 보기에 집중한 순수한 뷰어 앱입니다."
+  description: "사진 앨범을 선택해 디지털 액자처럼 감상하는 이미지 뷰어. 시계와 EXIF 정보를 함께 표시할 수 있습니다."
   url: "/apps/pureview/"
-  image: "/assets/img/apps/pureview/screenshot_main.png"
+  image: "/assets/img/apps/pureview/screenshot_frame_landscape.jpeg"
   status: "개발중"
   category: "사진"

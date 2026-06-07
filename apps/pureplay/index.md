@@ -42,10 +42,11 @@ aura:pureplay는 이름 그대로 '순수한 재생(Pure Play)'에 집중한 오
 
 ## 📥 다운로드
 
-*곧 Google Play 스토어에서 만나보실 수 있습니다.*
+<a href="https://play.google.com/store/apps/details?id=com.ochotona.aura" class="btn btn-primary" target="_blank" rel="noopener">Google Play에서 다운로드</a>
 
 ---
 
 ## 📄 정책
 
 - [개인정보처리방침](/privacy/pureplay/)
+- [이용약관](/terms/pureplay/)

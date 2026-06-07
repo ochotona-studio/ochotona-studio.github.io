@@ -14,6 +14,8 @@ pin: true
 
 aura:pureplay는 이름 그대로 '순수한 재생(Pure Play)'에 집중한 오디오 플레이어 앱입니다.
 
+Google Play에 출시되었습니다. 아래 링크에서 바로 다운로드할 수 있습니다.
+
 ### ✨ 주요 기능
 
 - 🎵 **폴더 기반 음악 재생** - 기기에 저장된 음악 파일을 폴더별로 탐색
@@ -22,4 +24,6 @@ aura:pureplay는 이름 그대로 '순수한 재생(Pure Play)'에 집중한 오
 
 ---
 
-👉 **[자세한 앱 소개 보기](/apps/)**
+👉 **[Google Play에서 다운로드](https://play.google.com/store/apps/details?id=com.ochotona.aura)**
+
+👉 **[자세한 앱 소개 보기](/apps/pureplay/)**
