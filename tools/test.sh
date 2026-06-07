@@ -14,6 +14,13 @@ _config="_config.yml"
 
 _baseurl=""
 
+# Prefer the Homebrew Ruby 3.x runtime required by this theme when it exists.
+if [ -d /opt/homebrew/opt/ruby@3.3/bin ]; then
+  export PATH="/opt/homebrew/opt/ruby@3.3/bin:$PATH"
+fi
+
+export BUNDLE_PATH="${BUNDLE_PATH:-vendor/bundle}"
+
 help() {
   echo "Build and test the site content"
   echo
@@ -49,6 +56,8 @@ read_baseurl() {
 }
 
 main() {
+  bundle check || bundle install
+
   # clean up
   if [[ -d $SITE_DIR ]]; then
     rm -rf "$SITE_DIR"

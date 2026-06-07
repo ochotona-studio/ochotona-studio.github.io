@@ -46,10 +46,6 @@ aura:pureview는 이름 그대로 '순수한 보기(Pure View)'에 집중한 사
     <figcaption style="text-align: center; margin-top: 8px;">세로 액자 화면</figcaption>
   </figure>
   <figure style="margin: 0;">
-    <img src="/assets/img/apps/pureview/screenshot_frame_landscape.jpeg" alt="aura:pureview 가로 액자 화면" style="width: 100%; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
-    <figcaption style="text-align: center; margin-top: 8px;">가로 액자 화면</figcaption>
-  </figure>
-  <figure style="margin: 0;">
     <img src="/assets/img/apps/pureview/screenshot_settings_portrait.jpeg" alt="aura:pureview 세로 화면 설정" style="width: 100%; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
     <figcaption style="text-align: center; margin-top: 8px;">세로 화면 설정</figcaption>
   </figure>

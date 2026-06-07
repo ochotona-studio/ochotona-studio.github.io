@@ -21,6 +21,6 @@
 - title: "aura:pureview"
   description: "사진 앨범을 선택해 디지털 액자처럼 감상하는 이미지 뷰어. 시계와 EXIF 정보를 함께 표시할 수 있습니다."
   url: "/apps/pureview/"
-  image: "/assets/img/apps/pureview/screenshot_frame_landscape.jpeg"
+  image: "/assets/img/apps/pureview/screenshot_frame_portrait.jpeg"
   status: "개발중"
   category: "사진"

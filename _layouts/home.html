@@ -9,6 +9,83 @@ layout: default
 
 {% assign posts = '' | split: '' %}
 
+{% if paginator.page == 1 %}
+  {% assign released_apps = site.data.apps | where: 'status', 'Google Play 출시' %}
+  {% assign developing_apps = site.data.apps | where_exp: 'app', 'app.status != "Google Play 출시"' %}
+
+  <section class="home-studio px-xl-1">
+    <div class="home-hero card">
+      <div class="home-hero__content">
+        <span class="home-eyebrow">ochotona-studio</span>
+        <h1>단순하지만 오래 쓰고 싶은 앱을 만듭니다.</h1>
+        <p>
+          복잡함보다는 단순함을, 기능보다는 경험을 먼저 생각합니다.
+          사용자가 정말 필요로 하는 핵심 기능에 집중해 작고 실용적인 앱을 만들고 있습니다.
+        </p>
+        <div class="home-hero__actions">
+          <a href="{{ '/about/' | relative_url }}" class="home-link">스튜디오 소개</a>
+          <a href="{{ '/apps/' | relative_url }}" class="home-link">전체 앱 보기</a>
+        </div>
+      </div>
+      <div class="home-hero__badge" aria-hidden="true">
+        <span>simple</span>
+        <strong>useful</strong>
+        <span>apps</span>
+      </div>
+    </div>
+
+    <div class="home-app-section">
+      <div class="home-section-heading">
+        <span>Now Available</span>
+        <h2>배포 중인 앱</h2>
+      </div>
+
+      <div class="home-app-grid home-app-grid--released">
+        {% for app in released_apps %}
+          <a href="{{ app.url | relative_url }}" class="home-app-card card">
+            <div class="home-app-card__copy">
+              <span class="home-app-status home-app-status--released">{{ app.status }}</span>
+              <h3>{{ app.title }}</h3>
+              <p>{{ app.description }}</p>
+              <span class="home-app-category">
+                <i class="far fa-folder-open fa-fw me-1"></i>{{ app.category }}
+              </span>
+            </div>
+            {% if app.image %}
+              <img src="{{ app.image | relative_url }}" alt="{{ app.title }} 스크린샷">
+            {% endif %}
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="home-app-section">
+      <div class="home-section-heading">
+        <span>In Progress</span>
+        <h2>개발 중인 앱</h2>
+      </div>
+
+      <div class="home-app-grid">
+        {% for app in developing_apps %}
+          <a href="{{ app.url | relative_url }}" class="home-app-card home-app-card--compact card">
+            {% if app.image %}
+              <img src="{{ app.image | relative_url }}" alt="{{ app.title }} 스크린샷">
+            {% endif %}
+            <div class="home-app-card__copy">
+              <span class="home-app-status">{{ app.status }}</span>
+              <h3>{{ app.title }}</h3>
+              <p>{{ app.description }}</p>
+              <span class="home-app-category">
+                <i class="far fa-folder-open fa-fw me-1"></i>{{ app.category }}
+              </span>
+            </div>
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+{% endif %}
+
 <!-- Get pinned posts on current page -->
 
 {% assign visible_start = paginator.page | minus: 1 | times: paginator.per_page %}
@@ -44,6 +121,13 @@ layout: default
   {% for i in (normal_start..normal_end) %}
     {% assign posts = posts | push: all_normal[i] %}
   {% endfor %}
+{% endif %}
+
+{% if paginator.page == 1 and posts.size > 0 %}
+  <div class="home-section-heading home-section-heading--posts px-xl-1">
+    <span>Updates</span>
+    <h2>최근 소식</h2>
+  </div>
 {% endif %}
 
 <div id="post-list" class="flex-grow-1 px-xl-1">
