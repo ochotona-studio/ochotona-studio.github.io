@@ -14,9 +14,11 @@ _config="_config.yml"
 
 _baseurl=""
 
-# Prefer the Homebrew Ruby 3.x runtime required by this theme when it exists.
-if [ -d /opt/homebrew/opt/ruby@3.3/bin ]; then
-  export PATH="/opt/homebrew/opt/ruby@3.3/bin:$PATH"
+# Prefer the Homebrew Ruby 3.1 runtime required by this theme when it exists.
+if [ -d /opt/homebrew/opt/ruby@3.1/bin ]; then
+  export PATH="/opt/homebrew/opt/ruby@3.1/bin:$PATH"
+elif [ -d /usr/local/opt/ruby@3.1/bin ]; then
+  export PATH="/usr/local/opt/ruby@3.1/bin:$PATH"
 fi
 
 export BUNDLE_PATH="${BUNDLE_PATH:-vendor/bundle}"

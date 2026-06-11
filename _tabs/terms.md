@@ -15,3 +15,9 @@ Select an application to view its Terms & Conditions:
 *   **[aura:pureplay](/terms/pureplay/)**
 *   **[aura:pureview](/terms/pureview/)**
 *   **[HayDo (헤이두)](/terms/haydo/)**
+
+## Account & Data Deletion
+
+To request deletion of an app account and associated data, open the deletion request menu, select the app, and submit a request.
+
+*   **[Account & Data Deletion Request](/account-deletion/)**

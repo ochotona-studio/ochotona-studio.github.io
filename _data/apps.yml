@@ -3,24 +3,45 @@
 
 # HayDo (헤이두) - TO-DO 앱
 - title: "HayDo (헤이두)"
+  slug: "haydo"
   description: "귀여운 북방우는토끼와 함께 목표를 세우고 처리해나가는 TO-DO 앱. 심플하지만 강력한 목표 달성 도우미."
   url: "/apps/haydo/"
   image: "/assets/img/apps/haydo/screenshot_1.png"
   status: "개발중"
   category: "생산성"
+  account_deletion_url: "/account-deletion/#haydo"
+  deletion_subject: "HayDo account and data deletion request"
+  deletion_data:
+    - "Account link information"
+    - "To-do tasks, schedules, categories, and subtasks"
+    - "Reminder settings and user preferences"
+    - "Shared task or shared statistics data associated with the account"
 
 # aura:pureplay - MP3 플레이어 앱
 - title: "aura:pureplay"
+  slug: "pureplay"
   description: "순수하게 음악 재생에 집중하는 MP3 플레이어. 복잡한 기능 없이 음악 파일 재생에 필요한 핵심 기능만을 담았습니다."
   url: "/apps/pureplay/"
   image: "/assets/img/apps/pureplay/screenshot_player.png"
   status: "Google Play 출시"
   category: "음악"
+  account_deletion_url: "/account-deletion/#pureplay"
+  deletion_subject: "aura:pureplay account and data deletion request"
+  deletion_data:
+    - "Account or purchase-related identifiers, if any"
+    - "Server-side support records associated with the account, if any"
 
 # aura:pureview - 이미지 뷰어 앱
 - title: "aura:pureview"
+  slug: "pureview"
   description: "사진 앨범을 선택해 디지털 액자처럼 감상하는 이미지 뷰어. 시계와 EXIF 정보를 함께 표시할 수 있습니다."
   url: "/apps/pureview/"
   image: "/assets/img/apps/pureview/screenshot_frame_portrait.jpeg"
   status: "개발중"
   category: "사진"
+  account_deletion_url: "/account-deletion/#pureview"
+  deletion_subject: "aura:pureview account and data deletion request"
+  deletion_data:
+    - "Account link information, if any"
+    - "Cloud sync or shared data associated with the account, if any"
+    - "Server-side support records associated with the account, if any"
