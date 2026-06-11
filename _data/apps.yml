@@ -16,6 +16,8 @@
     - "To-do tasks, schedules, categories, and subtasks"
     - "Reminder settings and user preferences"
     - "Shared task or shared statistics data associated with the account"
+  deletion_help_image: "/assets/img/apps/haydo/account_sample_mosaic.jpeg"
+  deletion_help_alt: "HayDo account linking screen showing where to find the current UID and account email"
 
 # aura:pureplay - MP3 플레이어 앱
 - title: "aura:pureplay"
