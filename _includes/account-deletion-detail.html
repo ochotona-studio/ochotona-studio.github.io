@@ -1,0 +1,65 @@
+{% assign support_email = site.social.email | default: "by.ochotona@gmail.com" %}
+{% assign selected_app = nil %}
+{% for app in site.data.apps %}
+  {% if app.slug == page.app_slug %}
+    {% assign selected_app = app %}
+  {% endif %}
+{% endfor %}
+
+{% if selected_app %}
+{% capture mail_body %}Hello Ochotona Studio,
+
+I would like to request deletion of my account and associated data for {{ selected_app.title }}.
+
+App: {{ selected_app.title }}
+Linked Google account email:
+App UID or user ID:
+Additional notes:
+
+Thank you.{% endcapture %}
+
+# {{ selected_app.title }} Account & Data Deletion
+
+{{ selected_app.description }}
+
+<div class="alert alert-info" role="alert">
+  Please review the selected app below, then submit an account and data deletion request.
+</div>
+
+{% if selected_app.deletion_data %}
+## Data Included in the Deletion Request
+
+<ul>
+  {% for item in selected_app.deletion_data %}
+  <li>{{ item }}</li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+## Request Details
+
+Please include the Google account email linked to the app or the app UID/user ID shown in the app settings, if available.
+
+요청 시 앱에 연동한 Google 계정 이메일 또는 앱 설정 화면의 UID/사용자 ID를 함께 적어 주세요.
+
+<p>
+  <a
+    class="btn btn-primary"
+    href="mailto:{{ support_email }}?subject={{ selected_app.deletion_subject | uri_escape }}&body={{ mail_body | uri_escape }}"
+  >
+    Submit deletion request for {{ selected_app.title }}
+  </a>
+</p>
+
+<p>
+  <a href="{{ '/account-deletion/' | relative_url }}">Choose a different app</a>
+</p>
+{% else %}
+# Account & Data Deletion
+
+The selected app could not be found.
+
+<p>
+  <a href="{{ '/account-deletion/' | relative_url }}">Choose an app</a>
+</p>
+{% endif %}

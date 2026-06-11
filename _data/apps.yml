@@ -9,7 +9,7 @@
   image: "/assets/img/apps/haydo/screenshot_1.png"
   status: "개발중"
   category: "생산성"
-  account_deletion_url: "/account-deletion/#haydo"
+  account_deletion_url: "/account-deletion/haydo/"
   deletion_subject: "HayDo account and data deletion request"
   deletion_data:
     - "Account link information"
@@ -25,11 +25,6 @@
   image: "/assets/img/apps/pureplay/screenshot_player.png"
   status: "Google Play 출시"
   category: "음악"
-  account_deletion_url: "/account-deletion/#pureplay"
-  deletion_subject: "aura:pureplay account and data deletion request"
-  deletion_data:
-    - "Account or purchase-related identifiers, if any"
-    - "Server-side support records associated with the account, if any"
 
 # aura:pureview - 이미지 뷰어 앱
 - title: "aura:pureview"
@@ -39,7 +34,7 @@
   image: "/assets/img/apps/pureview/screenshot_frame_portrait.jpeg"
   status: "개발중"
   category: "사진"
-  account_deletion_url: "/account-deletion/#pureview"
+  account_deletion_url: "/account-deletion/pureview/"
   deletion_subject: "aura:pureview account and data deletion request"
   deletion_data:
     - "Account link information, if any"

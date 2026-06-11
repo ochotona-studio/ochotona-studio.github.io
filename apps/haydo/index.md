@@ -48,4 +48,4 @@ HayDo(헤이두)는 단순한 할 일 관리 앱 그 이상입니다. 귀여운 
 
 - [개인정보처리방침](/privacy/haydo/)
 - [이용약관](/terms/haydo/)
-- [계정 및 데이터 삭제 요청](/account-deletion/#haydo)
+- [계정 및 데이터 삭제 요청](/account-deletion/haydo/)

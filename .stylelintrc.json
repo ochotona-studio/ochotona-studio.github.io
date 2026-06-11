@@ -11,6 +11,7 @@
     "selector-not-notation": "simple",
     "color-hex-length": "long",
     "declaration-block-single-line-max-declarations": 3,
+    "selector-class-pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*(?:__[a-z0-9]+(?:-[a-z0-9]+)*)?(?:--[a-z0-9]+(?:-[a-z0-9]+)*)?$",
     "scss/operator-no-newline-after": null,
     "rule-empty-line-before": [
       "always",

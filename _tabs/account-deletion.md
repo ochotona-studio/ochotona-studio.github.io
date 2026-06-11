@@ -8,9 +8,9 @@ permalink: /account-deletion/
 
 # Account & Data Deletion
 
-Select the app you use, then submit an account and data deletion request.
+Select the app you use to open its account and data deletion request screen.
 
-앱을 선택한 뒤 계정 및 관련 데이터 삭제를 요청해 주세요.
+사용 중인 앱을 선택하면 계정 및 관련 데이터 삭제 요청 화면으로 이동합니다.
 
 {% assign support_email = site.social.email | default: "by.ochotona@gmail.com" %}
 
@@ -18,50 +18,26 @@ Select the app you use, then submit an account and data deletion request.
   If the selected app does not have a server-side account, we will confirm that no account data is stored or guide you to remove local data from the app/device.
 </div>
 
+<div class="row row-cols-1 row-cols-md-2 g-4">
 {% for app in site.data.apps %}
-{% assign app_id = app.slug | default: app.title | slugify %}
-{% capture mail_body %}Hello Ochotona Studio,
-
-I would like to request deletion of my account and associated data for {{ app.title }}.
-
-App: {{ app.title }}
-Linked Google account email:
-App UID or user ID:
-Additional notes:
-
-Thank you.{% endcapture %}
-
-<section id="{{ app_id }}" class="card mb-4">
-  <div class="card-body">
-    <h2 class="h4 mt-0">{{ app.title }}</h2>
-    <p>{{ app.description }}</p>
-
-    {% if app.deletion_data %}
-    <h3 class="h6">Data included in the deletion request</h3>
-    <ul>
-      {% for item in app.deletion_data %}
-      <li>{{ item }}</li>
-      {% endfor %}
-    </ul>
-    {% endif %}
-
-    <p>
-      Please include the Google account email linked to the app or the app UID/user ID shown in the app settings, if available.
-    </p>
-
-    <p>
-      요청 시 앱에 연동한 Google 계정 이메일 또는 앱 설정 화면의 UID/사용자 ID를 함께 적어 주세요.
-    </p>
-
-    <a
-      class="btn btn-primary"
-      href="mailto:{{ support_email }}?subject={{ app.deletion_subject | uri_escape }}&body={{ mail_body | uri_escape }}"
-    >
-      Request deletion for {{ app.title }}
-    </a>
+  {% unless app.account_deletion_url %}
+    {% continue %}
+  {% endunless %}
+  <div class="col">
+    <section class="card h-100">
+      <div class="card-body d-flex flex-column">
+        <h2 class="h4 mt-0">{{ app.title }}</h2>
+        <p>{{ app.description }}</p>
+        <div class="mt-auto">
+          <a class="btn btn-primary" href="{{ app.account_deletion_url | relative_url }}">
+            Select {{ app.title }}
+          </a>
+        </div>
+      </div>
+    </section>
   </div>
-</section>
 {% endfor %}
+</div>
 
 ## Processing and Retention
 
