@@ -1,6 +1,15 @@
 # 앱 목록 데이터 파일
 # 각 앱의 정보를 정의하여 Apps 페이지에서 카드 형태로 표시
 
+# pika pick - 문화 예술 행사 큐레이션 앱
+- title: "pika pick"
+  slug: "pika-pick"
+  description: "우리 동네 문화 예술 행사와 원데이 클래스를 감성적인 카드 UI로 큐레이션하는 주말 문화생활 달력 앱."
+  url: "/apps/pika-pick/"
+  image: "/assets/img/apps/pika-pick/screenshot_home.png"
+  status: "개발중"
+  category: "문화/라이프스타일"
+
 # HayDo (헤이두) - TO-DO 앱
 - title: "HayDo (헤이두)"
   slug: "haydo"
