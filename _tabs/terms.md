@@ -12,6 +12,7 @@ Select an application to view its Terms & Conditions:
 
 ## Applications
 
+*   **[pika pick](/terms/pika-pick/)**
 *   **[aura:pureplay](/terms/pureplay/)**
 *   **[HayDo (헤이두)](/terms/haydo/)**
 

@@ -12,5 +12,6 @@ Select an application to view its Privacy Policy:
 
 ## Applications
 
+*   **[pika pick](/privacy/pika-pick/)**
 *   **[aura:pureplay](/privacy/pureplay/)**
 *   **[HayDo (헤이두)](/privacy/haydo/)**
