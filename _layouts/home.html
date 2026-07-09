@@ -10,8 +10,9 @@ layout: default
 {% assign posts = '' | split: '' %}
 
 {% if paginator.page == 1 %}
-  {% assign released_apps = site.data.apps | where: 'status', 'Google Play 출시' %}
-  {% assign developing_apps = site.data.apps | where_exp: 'app', 'app.status != "Google Play 출시"' %}
+  {% assign visible_apps = site.data.apps | where_exp: 'app', 'app.hidden != true' %}
+  {% assign released_apps = visible_apps | where: 'status', 'Google Play 출시' %}
+  {% assign developing_apps = visible_apps | where_exp: 'app', 'app.status != "Google Play 출시"' %}
 
   <section class="home-studio px-xl-1">
     <div class="home-hero card">
@@ -59,30 +60,32 @@ layout: default
       </div>
     </div>
 
-    <div class="home-app-section">
-      <div class="home-section-heading">
-        <span>In Progress</span>
-        <h2>개발 중인 앱</h2>
-      </div>
+    {% if developing_apps.size > 0 %}
+      <div class="home-app-section">
+        <div class="home-section-heading">
+          <span>In Progress</span>
+          <h2>개발 중인 앱</h2>
+        </div>
 
-      <div class="home-app-grid">
-        {% for app in developing_apps %}
-          <a href="{{ app.url | relative_url }}" class="home-app-card home-app-card--compact card">
-            {% if app.image %}
-              <img src="{{ app.image | relative_url }}" alt="{{ app.title }} 스크린샷">
-            {% endif %}
-            <div class="home-app-card__copy">
-              <span class="home-app-status">{{ app.status }}</span>
-              <h3>{{ app.title }}</h3>
-              <p>{{ app.description }}</p>
-              <span class="home-app-category">
-                <i class="far fa-folder-open fa-fw me-1"></i>{{ app.category }}
-              </span>
-            </div>
-          </a>
-        {% endfor %}
+        <div class="home-app-grid">
+          {% for app in developing_apps %}
+            <a href="{{ app.url | relative_url }}" class="home-app-card home-app-card--compact card">
+              {% if app.image %}
+                <img src="{{ app.image | relative_url }}" alt="{{ app.title }} 스크린샷">
+              {% endif %}
+              <div class="home-app-card__copy">
+                <span class="home-app-status">{{ app.status }}</span>
+                <h3>{{ app.title }}</h3>
+                <p>{{ app.description }}</p>
+                <span class="home-app-category">
+                  <i class="far fa-folder-open fa-fw me-1"></i>{{ app.category }}
+                </span>
+              </div>
+            </a>
+          {% endfor %}
+        </div>
       </div>
-    </div>
+    {% endif %}
   </section>
 {% endif %}
 

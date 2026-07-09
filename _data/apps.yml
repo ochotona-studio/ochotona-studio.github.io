@@ -16,7 +16,7 @@
   description: "귀여운 북방우는토끼와 함께 목표를 세우고 처리해나가는 TO-DO 앱. 심플하지만 강력한 목표 달성 도우미."
   url: "/apps/haydo/"
   image: "/assets/img/apps/haydo/screenshot_1.png"
-  status: "개발중"
+  status: "Google Play 출시"
   category: "생산성"
   account_deletion_url: "/account-deletion/haydo/"
   deletion_subject: "HayDo account and data deletion request"
@@ -45,6 +45,7 @@
   image: "/assets/img/apps/pureview/screenshot_frame_portrait.jpeg"
   status: "개발중"
   category: "사진"
+  hidden: true
   account_deletion_url: "/account-deletion/pureview/"
   deletion_subject: "aura:pureview account and data deletion request"
   deletion_data:

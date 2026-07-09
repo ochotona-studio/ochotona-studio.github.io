@@ -11,7 +11,8 @@ layout: default
 
 <!-- 앱 목록을 카드 형태로 표시 -->
 <div id="post-list" class="flex-grow-1 px-xl-1">
-  {% for app in site.data.apps %}
+  {% assign visible_apps = site.data.apps | where_exp: 'app', 'app.hidden != true' %}
+  {% for app in visible_apps %}
   <article class="card-wrapper card">
     <a
       href="{{ app.url | relative_url }}"

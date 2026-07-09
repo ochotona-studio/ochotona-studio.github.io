@@ -20,6 +20,9 @@ Select the app you use to open its account and data deletion request screen.
 
 <div class="row row-cols-1 row-cols-md-2 g-4">
 {% for app in site.data.apps %}
+  {% if app.hidden %}
+    {% continue %}
+  {% endif %}
   {% unless app.account_deletion_url %}
     {% continue %}
   {% endunless %}

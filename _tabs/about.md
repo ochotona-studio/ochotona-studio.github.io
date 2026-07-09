@@ -28,13 +28,7 @@ order: 3
 | 앱 | 상태 | 설명 |
 |----|------|------|
 | [aura:pureplay](/apps/pureplay/) | Google Play 출시 | 순수한 음악 재생에 집중하는 MP3 플레이어 |
-
-### 개발 중인 앱
-
-| 앱 | 상태 | 설명 |
-|----|------|------|
-| [HayDo (헤이두)](/apps/haydo/) | 개발중 | 귀여운 북방우는토끼와 함께 목표를 관리하는 TO-DO 앱 |
-| [aura:pureview](/apps/pureview/) | 개발중 | 사진 앨범을 디지털 액자처럼 감상하는 이미지 뷰어 |
+| [HayDo (헤이두)](/apps/haydo/) | Google Play 출시 | 귀여운 북방우는토끼와 함께 목표를 관리하는 TO-DO 앱 |
 
 ---
 

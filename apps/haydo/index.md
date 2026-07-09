@@ -23,12 +23,6 @@ HayDo(헤이두)는 단순한 할 일 관리 앱 그 이상입니다. 귀여운 
 - 할 일을 완수할 때마다 북방우는토끼가 당신을 응원합니다.
 - 단순한 도구가 아닌, 함께 성장하는 친구 같은 앱입니다.
 
-### 🖼️ 디지털 액자 연동 (예정)
-- 추후 출시될 **aura:pureview** 디지털 액자 앱과 연동하여, 디지털 액자에서도 To-Do 리스트를 확인할 수 있습니다.
-- 일상의 공간 어디서든 당신의 목표를 상기시켜 줍니다.
-
----
-
 ## 📱 스크린샷
 
 <div style="display: flex; gap: 16px; flex-wrap: wrap; justify-content: center;">
@@ -40,7 +34,7 @@ HayDo(헤이두)는 단순한 할 일 관리 앱 그 이상입니다. 귀여운 
 
 ## 📥 다운로드
 
-*곧 Google Play 스토어에서 만나보실 수 있습니다.*
+<a href="https://play.google.com/store/apps/details?id=com.ochotona.haydo" class="btn btn-primary" target="_blank" rel="noopener">Google Play에서 다운로드</a>
 
 ---
 
