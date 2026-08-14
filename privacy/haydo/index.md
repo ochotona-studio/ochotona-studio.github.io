@@ -6,150 +6,198 @@ permalink: /privacy/haydo/
 
 ## Privacy Policy
 
-This privacy policy applies to the **HayDo (헤이두)** app (hereby referred to as "Application") for mobile devices that was created by **Ochotona Studio** (hereby referred to as "Service Provider") as a Freemium service. This service is intended for use "AS IS".
+This Privacy Policy applies to the **HayDo (헤이두)** mobile application (the "Application") provided by **Ochotona Studio** (the "Service Provider"). HayDo helps users manage to-dos, schedules, home widgets, and lock screen backgrounds.
 
 ### Information Collection and Use
 
-The Application collects information when you download and use it. This information may include information such as:
+The Application may process the following information to provide its features:
 
-* Your device's Internet Protocol address (e.g. IP address)
-* The pages of the Application that you visit, the time and date of your visit, the time spent on those pages
-* The time spent on the Application
-* The operating system you use on your mobile device
+* Account linking information, such as account email address, user identifier (UID), and login provider, when the user links an account
+* To-do tasks, schedules, categories, subtasks, reminder settings, and app preferences created or selected by the user
+* Device and app information required to operate the Application and display advertisements
+* Local calendar information, only when the user grants calendar permission
+* Background photos selected by the user, only when the user chooses to use a custom background
 
-The Application does not gather precise information about the location of your mobile device.
+### Local Calendar Access
 
-The Application collects your device's location, which helps the Service Provider determine your approximate geographical location and make use of in below ways:
+HayDo may request **read-only access** to the device calendar so that calendar schedules can be shown inside the Application, on home screen widgets, on lock screen backgrounds, and through automatic refresh features.
 
-* **Geolocation Services**: The Service Provider utilizes location data to provide features such as personalized content, relevant recommendations, and location-based services.
-* **Analytics and Improvements**: Aggregated and anonymized location data helps the Service Provider to analyze user behavior, identify trends, and improve the overall performance and functionality of the Application.
-* **Third-Party Services**: Periodically, the Service Provider may transmit anonymized location data to external services. These services assist them in enhancing the Application and optimizing their offerings.
+When calendar access is granted, the Application may read:
 
-The Service Provider may use the information you provided to contact you from time to time to provide you with important information, required notices and marketing promotions.
+* Calendar name and calendar account name
+* Event title
+* Event description
+* Event location
+* Event start and end time
 
-For a better experience, while using the Application, the Service Provider may require you to provide us with certain personally identifiable information, including but not limited to Email address, User IDs, Device IDs, Purchase history, Usage Data, Diagnostic data. The information that the Service Provider request will be retained by them and used as described in this privacy policy.
+Calendar information is processed locally on the user's device for display and refresh purposes. The Application does **not** create, edit, or delete calendar events through this permission.
 
-### Third Party Access
+Calendar information read from the device is **not transmitted to Firebase, HayDo servers, or the Service Provider's servers**.
 
-Only aggregated, anonymized data is periodically transmitted to external services to aid the Service Provider in improving the Application and their service. The Service Provider may share your information with third parties in the ways that are described in this privacy statement.
+Please note that event titles or schedule information may be visible on the home screen or lock screen when the user enables widgets or lock screen background features. Users should avoid enabling these features if they do not want schedule information to be visible to other people who can see the device screen.
 
-Please note that the Application utilizes third-party services that have their own Privacy Policy about handling data. Below are the links to the Privacy Policy of the third-party service providers used by the Application:
+### Background Photos
 
-* [Google Play Services](https://policies.google.com/privacy)
-* [AdMob](https://support.google.com/admob/answer/6128543?hl=en)
-* [Google Analytics for Firebase](https://firebase.google.com/policies/analytics)
-* [Firebase Crashlytics](https://firebase.google.com/support/privacy/)
+When the user selects a background photo, the Application copies the selected image to the Application's app-specific storage so it can be used as an app background, widget background, or lock screen background.
 
-The Service Provider may disclose User Provided and Automatically Collected Information:
+User-selected background photos are stored locally on the device and are **not transmitted to Firebase, HayDo servers, or the Service Provider's servers**.
 
-* as required by law, such as to comply with a subpoena, or similar legal process;
-* when they believe in good faith that disclosure is necessary to protect their rights, protect your safety or the safety of others, investigate fraud, or respond to a government request;
-* with their trusted services providers who work on their behalf, do not have an independent use of the information we disclose to them, and have agreed to adhere to the rules set forth in this privacy statement.
+### Advertising
 
-### Opt-Out Rights
+The Application may use **Google AdMob** to display advertisements. AdMob may collect and process information such as Advertising ID, IP address, device information, approximate location derived from network information, ad interactions, and app usage data in accordance with Google's policies.
 
-You can stop all collection of information by the Application easily by uninstalling it. You may use the standard uninstall processes as may be available as part of your mobile device or via the mobile application marketplace or network.
+The Application utilizes the following third-party service:
+
+* **[AdMob](https://support.google.com/admob/answer/6128543?hl=en)**
+
+The Application does not currently use Google Analytics for Firebase or Firebase Crashlytics for analytics or crash reporting.
+
+### Location Information
+
+The Application does not request precise device location permission for its core features. Approximate location information may be processed by AdMob as part of advertising operations according to Google's policies.
+
+### User Controls
+
+Users can control their information in the following ways:
+
+* **Calendar permission withdrawal:** Users can revoke calendar permission in the device settings. After permission is revoked, HayDo will no longer read device calendar information, and calendar-based displays may stop updating or become unavailable.
+* **Background photo replacement:** Users can replace the selected background photo in the Application. The new photo copy replaces the previous app-stored background used by HayDo.
+* **Background photo removal:** Users can remove or reset the selected background from the Application where this option is provided. The app-stored background copy is removed or no longer used by HayDo.
+* **Lock screen background release:** Users can disable the lock screen background feature in the Application or replace the lock screen background through device settings. If the operating system keeps a previously applied image, the user may need to select another lock screen background in the device settings.
+* **Application deletion:** Uninstalling the Application removes locally stored app data, including local preferences and background photo copies stored in the Application's app-specific storage, subject to the device operating system's normal uninstall behavior.
 
 ### Data Retention Policy
 
-The Service Provider will retain User Provided data for as long as you use the Application and for a reasonable time thereafter. If you'd like them to delete User Provided Data that you have provided via the Application, please contact them at **by.ochotona@gmail.com** and they will respond in a reasonable time.
+Locally stored information, including app preferences, cached display data, and app-specific background photo copies, remains on the device until the user deletes it, changes the related setting, clears app data, or uninstalls the Application.
+
+Account-related information and user-created HayDo data associated with an account may be retained while the account is active. Users may request account and data deletion through the **[HayDo Account & Data Deletion](/account-deletion/haydo/)** page or by contacting **by.ochotona@gmail.com**.
+
+Information processed by third-party services such as AdMob is retained according to their own privacy policies.
+
+### Third-Party Access
+
+The Service Provider does not sell calendar information or user-selected background photos to third parties. Calendar information and user-selected background photos are not sent to Firebase, HayDo servers, or the Service Provider's servers.
+
+Information may be disclosed only in the following limited cases:
+
+* As required by law, such as to comply with a subpoena or similar legal process
+* When the Service Provider believes in good faith that disclosure is necessary to protect rights, safety, investigate fraud, or respond to a government request
+* To third-party services such as AdMob only as needed for advertising operations under their own privacy policies
 
 ### Children
 
-The Service Provider does not use the Application to knowingly solicit data from or market to children under the age of 13.
-
-The Application does not address anyone under the age of 13. The Service Provider does not knowingly collect personally identifiable information from children under 13 years of age. In the case the Service Provider discover that a child under 13 has provided personal information, the Service Provider will immediately delete this from their servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact the Service Provider (**by.ochotona@gmail.com**) so that they will be able to take the necessary actions.
+The Application does not address anyone under the age of 13. The Service Provider does not knowingly collect personally identifiable information from children under 13. If it is discovered that such information has been provided, it will be deleted as soon as possible.
 
 ### Security
 
-The Service Provider is concerned about safeguarding the confidentiality of your information. The Service Provider provides physical, electronic, and procedural safeguards to protect information the Service Provider processes and maintains.
+The Service Provider is concerned about safeguarding user information. However, no method of electronic storage or transmission over the Internet is 100% secure, and absolute security cannot be guaranteed.
 
 ### Changes
 
-This Privacy Policy may be updated from time to time for any reason. The Service Provider will notify you of any changes to the Privacy Policy by updating this page with the new Privacy Policy. You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes.
+This Privacy Policy may be updated from time to time. Users are advised to review this page periodically for any changes.
 
-This privacy policy is effective as of **2026-02-12**
-
-### Your Consent
-
-By using the Application, you are consenting to the processing of your information as set forth in this Privacy Policy now and as amended by us.
+**Effective Date:** 2026-08-14
 
 ### Contact Us
 
-If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the Service Provider via email at **by.ochotona@gmail.com**.
+If you have any questions regarding privacy while using the Application, please contact the Service Provider via email at **by.ochotona@gmail.com**.
 
 ---
 
-## 개인정보처리방침 (Privacy Policy)
+## 개인정보처리방침
 
-본 개인정보처리방침은 **Ochotona Studio**(이하 "서비스 제공자")가 개발한 모바일 기기용 **HayDo (헤이두)** 앱(이하 "애플리케이션")에 적용됩니다. 본 서비스는 부분 유료화(Freemium) 서비스로 제공되며, "있는 그대로(AS IS)" 사용하도록 의도되었습니다.
+본 개인정보처리방침은 **Ochotona Studio**(이하 "서비스 제공자")가 제공하는 모바일 애플리케이션 **HayDo (헤이두)**(이하 "애플리케이션")에 적용됩니다. HayDo는 할 일, 일정, 홈 화면 위젯, 잠금화면 배경을 관리할 수 있도록 돕는 앱입니다.
 
-### 정보 수집 및 이용
+### 수집 및 이용하는 정보
 
-애플리케이션은 귀하가 앱을 다운로드하고 사용할 때 정보를 수집합니다. 수집되는 정보에는 다음이 포함될 수 있습니다.
+애플리케이션은 기능 제공을 위해 다음 정보를 처리할 수 있습니다.
 
-* 귀하의 기기 인터넷 프로토콜 주소 (예: IP 주소)
-* 귀하가 방문한 애플리케이션 페이지, 방문 날짜 및 시간, 해당 페이지에서 보낸 시간
-* 애플리케이션 사용 시간
-* 귀하가 모바일 기기에서 사용하는 운영체제
+* 사용자가 계정을 연동하는 경우 계정 이메일 주소, 사용자 식별자(UID), 로그인 제공자 등 계정 연동 정보
+* 사용자가 생성하거나 선택한 할 일, 일정, 카테고리, 하위 할 일, 알림 설정, 앱 환경설정
+* 애플리케이션 운영 및 광고 표시를 위해 필요한 기기 및 앱 정보
+* 사용자가 캘린더 권한을 허용한 경우 기기 캘린더 정보
+* 사용자가 직접 선택한 배경 사진
 
-애플리케이션은 귀하의 모바일 기기에 대한 정밀한 위치 정보를 수집하지 않습니다.
+### 기기 캘린더 접근
 
-단, 애플리케이션은 귀하의 대략적인 지리적 위치를 파악하기 위해 기기 위치 관련 정보(IP 주소 등)를 수집할 수 있으며, 이는 다음과 같은 방식으로 활용됩니다.
+HayDo는 애플리케이션, 홈 화면 위젯, 잠금화면 배경, 자동 갱신 기능에서 일정을 표시하기 위해 기기 캘린더에 대한 **읽기 전용 접근 권한**을 요청할 수 있습니다.
 
-* **지리적 위치 서비스**: 개인화된 콘텐츠, 관련 추천 및 위치 기반 서비스를 제공하기 위해 위치 데이터를 활용합니다.
-* **분석 및 개선**: 집계되고 익명화된 위치 데이터는 사용자 행동 분석, 트렌드 파악, 애플리케이션의 전반적인 성능 및 기능 개선에 도움을 줍니다.
-* **제3자 서비스**: 서비스 제공자는 애플리케이션 개선 및 서비스 최적화를 위해 익명화된 위치 데이터를 주기적으로 외부 서비스에 전송할 수 있습니다.
+캘린더 권한이 허용된 경우 애플리케이션은 다음 정보를 읽을 수 있습니다.
 
-서비스 제공자는 귀하에게 중요한 정보, 필수 공지사항 및 마케팅 프로모션을 제공하기 위해 귀하가 제공한 정보를 사용하여 연락할 수 있습니다.
+* 캘린더명 및 캘린더 계정명
+* 일정 제목
+* 일정 설명
+* 일정 장소
+* 일정 시작 및 종료 시간
 
-더 나은 서비스 경험을 위해, 서비스 제공자는 애플리케이션 사용 중 이메일 주소, 사용자 ID(User IDs), 기기 ID(Device IDs), 구매 내역(Purchase history), 사용 데이터(Usage Data), 진단 데이터(Diagnostic data) 등을 포함한 특정 개인 식별 정보를 요구할 수 있습니다. 요청된 정보는 서비스 제공자에 의해 보관되며 본 개인정보처리방침에 명시된 대로 사용됩니다.
+캘린더 정보는 사용자의 기기 안에서 표시 및 자동 갱신 목적으로만 처리됩니다. 애플리케이션은 이 권한을 통해 캘린더 일정을 생성, 수정, 삭제하지 않습니다.
 
-### 제3자 접근 (Third Party Access)
+기기에서 읽은 캘린더 정보는 **Firebase, HayDo 서버 또는 서비스 제공자의 서버로 전송되지 않습니다**.
 
-서비스 제공자는 애플리케이션 및 서비스 개선을 돕기 위해 집계되고 익명화된 데이터만을 주기적으로 외부 서비스에 전송합니다. 서비스 제공자는 본 개인정보처리방침에 설명된 방식으로 제3자와 귀하의 정보를 공유할 수 있습니다.
+사용자가 홈 화면 위젯 또는 잠금화면 배경 기능을 활성화하면 일정 제목이나 일정 정보가 홈 화면 또는 잠금화면에 노출될 수 있습니다. 다른 사람이 기기 화면을 볼 수 있는 상황에서 일정 정보 노출을 원하지 않는 경우 해당 기능을 사용하지 않거나 설정을 변경해 주세요.
 
-애플리케이션은 데이터 처리에 대한 자체 개인정보 보호정책을 가진 제3자 서비스를 이용합니다. 애플리케이션에서 사용하는 제3자 서비스 제공자의 개인정보 보호정책 링크는 다음과 같습니다.
+### 배경 사진
 
-* [Google Play Services](https://policies.google.com/privacy)
-* [AdMob](https://support.google.com/admob/answer/6128543?hl=en)
-* [Google Analytics for Firebase](https://firebase.google.com/policies/analytics)
-* [Firebase Crashlytics](https://firebase.google.com/support/privacy/)
+사용자가 배경 사진을 선택하면 애플리케이션은 해당 이미지를 앱 배경, 위젯 배경 또는 잠금화면 배경으로 사용하기 위해 애플리케이션 전용 저장소에 복사합니다.
 
-서비스 제공자는 다음과 같은 경우 사용자 제공 정보 및 자동 수집 정보를 공개할 수 있습니다.
+사용자가 선택한 배경 사진은 기기 안에 로컬로 저장되며 **Firebase, HayDo 서버 또는 서비스 제공자의 서버로 전송되지 않습니다**.
 
-* 소환장 또는 이와 유사한 법적 절차를 준수하기 위해 법적으로 요구되는 경우
-* 자신의 권리 보호, 귀하 또는 타인의 안전 보호, 사기 조사 또는 정부 요청에 응답하기 위해 공개가 필요하다고 선의로 판단되는 경우
-* 서비스 제공자를 대신하여 업무를 수행하는 신뢰할 수 있는 서비스 제공자와 공유하는 경우 (단, 이들은 우리가 공개한 정보를 독립적으로 사용할 권한이 없으며 본 개인정보처리방침의 규칙을 준수하기로 합의한 경우에 한함)
+### 광고
 
-### 거부 권리 (Opt-Out Rights)
+애플리케이션은 광고 표시를 위해 **Google AdMob**을 사용할 수 있습니다. AdMob은 Google 정책에 따라 광고 ID, IP 주소, 기기 정보, 네트워크 정보에서 파생된 대략적인 위치, 광고 상호작용, 앱 사용 데이터 등을 수집 및 처리할 수 있습니다.
 
-귀하는 애플리케이션을 제거함으로써 애플리케이션의 모든 정보 수집을 중단할 수 있습니다. 모바일 기기 또는 모바일 애플리케이션 마켓플레이스나 네트워크에서 제공하는 표준 제거 절차를 이용할 수 있습니다.
+애플리케이션에서 사용하는 제3자 서비스는 다음과 같습니다.
+
+* **[AdMob](https://support.google.com/admob/answer/6128543?hl=ko)**
+
+애플리케이션은 현재 분석 또는 오류 보고 목적으로 Google Analytics for Firebase 및 Firebase Crashlytics를 사용하지 않습니다.
+
+### 위치 정보
+
+애플리케이션은 핵심 기능 제공을 위해 정밀한 기기 위치 권한을 요청하지 않습니다. 단, AdMob은 광고 운영 과정에서 Google 정책에 따라 네트워크 정보 기반의 대략적인 위치 정보를 처리할 수 있습니다.
+
+### 사용자의 제어 방법
+
+사용자는 다음 방법으로 정보 처리를 제어할 수 있습니다.
+
+* **캘린더 권한 철회:** 기기 설정에서 캘린더 권한을 철회할 수 있습니다. 권한 철회 후 HayDo는 기기 캘린더 정보를 더 이상 읽지 않으며, 캘린더 기반 표시 기능은 갱신되지 않거나 사용할 수 없게 될 수 있습니다.
+* **배경 사진 교체:** 애플리케이션에서 배경 사진을 교체할 수 있습니다. 새 사진이 HayDo에서 사용하는 기존 앱 저장 배경 사진을 대체합니다.
+* **배경 사진 삭제:** 애플리케이션에서 제공되는 경우 선택한 배경을 삭제하거나 초기화할 수 있습니다. 이 경우 앱 전용 저장소의 배경 사진 복사본은 삭제되거나 HayDo에서 더 이상 사용되지 않습니다.
+* **잠금화면 배경 해제:** 애플리케이션에서 잠금화면 배경 기능을 비활성화하거나 기기 설정에서 잠금화면 배경을 변경할 수 있습니다. 운영체제가 이전에 적용된 이미지를 유지하는 경우, 기기 설정에서 다른 잠금화면 배경을 선택해야 할 수 있습니다.
+* **앱 삭제:** 애플리케이션을 삭제하면 앱 전용 저장소에 저장된 로컬 환경설정 및 배경 사진 복사본 등 로컬 앱 데이터가 운영체제의 일반적인 삭제 동작에 따라 제거됩니다.
 
 ### 데이터 보관 정책
 
-서비스 제공자는 귀하가 애플리케이션을 사용하는 동안 및 그 이후 합리적인 기간 동안 사용자 제공 데이터를 보관합니다. 애플리케이션을 통해 제공한 데이터의 삭제를 원하시는 경우 **by.ochotona@gmail.com**으로 문의해 주시면 합리적인 시간 내에 응답해 드립니다.
+앱 환경설정, 캐시된 표시 데이터, 앱 전용 저장소에 복사된 배경 사진 등 로컬 저장 정보는 사용자가 삭제하거나 관련 설정을 변경하거나, 앱 데이터를 지우거나, 애플리케이션을 삭제할 때까지 기기에 보관됩니다.
 
-### 아동 개인정보 보호 (Children)
+계정과 연결된 HayDo 데이터는 계정이 활성 상태인 동안 보관될 수 있습니다. 계정 및 데이터 삭제를 원하는 사용자는 **[HayDo 계정 및 데이터 삭제 요청](/account-deletion/haydo/)** 페이지를 이용하거나 **by.ochotona@gmail.com**으로 문의할 수 있습니다.
 
-서비스 제공자는 만 13세 미만의 아동을 대상으로 고의적으로 데이터를 수집하거나 마케팅하지 않습니다.
+AdMob과 같은 제3자 서비스가 처리하는 정보는 해당 서비스의 개인정보처리방침에 따라 보관됩니다.
 
-본 애플리케이션은 만 13세 미만의 아동을 대상으로 하지 않습니다. 서비스 제공자는 만 13세 미만의 아동으로부터 개인 식별 정보를 고의로 수집하지 않습니다. 만약 13세 미만의 아동이 개인 정보를 제공한 사실을 발견할 경우, 서비스 제공자는 이를 서버에서 즉시 삭제할 것입니다. 부모나 보호자로서 자녀가 개인 정보를 제공했다는 사실을 알게 된 경우, 필요한 조치를 취할 수 있도록 서비스 제공자(**by.ochotona@gmail.com**)에게 연락해 주시기 바랍니다.
+### 제3자 접근
 
-### 보안 (Security)
+서비스 제공자는 캘린더 정보 또는 사용자가 선택한 배경 사진을 제3자에게 판매하지 않습니다. 캘린더 정보와 사용자가 선택한 배경 사진은 Firebase, HayDo 서버 또는 서비스 제공자의 서버로 전송되지 않습니다.
 
-서비스 제공자는 귀하의 정보에 대한 기밀성을 보호하는 것을 중요하게 생각합니다. 서비스 제공자는 처리 및 유지 관리하는 정보를 보호하기 위해 물리적, 전자적, 절차적 안전 장치를 제공합니다.
+정보는 다음과 같은 제한적인 경우에만 공개될 수 있습니다.
 
-### 변경 사항 (Changes)
+* 소환장 또는 이와 유사한 법적 절차 준수를 위해 법적으로 요구되는 경우
+* 권리 보호, 귀하 또는 타인의 안전 보호, 사기 조사 또는 정부 요청 대응을 위해 공개가 필요하다고 선의로 판단되는 경우
+* 광고 운영에 필요한 범위에서 AdMob과 같은 제3자 서비스가 자체 개인정보처리방침에 따라 정보를 처리하는 경우
 
-본 개인정보처리방침은 어떠한 이유로든 수시로 업데이트될 수 있습니다. 서비스 제공자는 본 페이지에 새로운 개인정보처리방침을 게시함으로써 변경 사항을 귀하에게 알릴 것입니다. 귀하는 변경 사항을 확인하기 위해 본 개인정보처리방침을 정기적으로 검토하는 것이 좋으며, 계속적인 사용은 모든 변경 사항에 대한 승인으로 간주됩니다.
+### 아동 개인정보 보호
 
-본 개인정보처리방침은 **2026년 2월 12일**부터 시행됩니다.
+애플리케이션은 만 13세 미만의 아동을 대상으로 하지 않습니다. 서비스 제공자는 만 13세 미만 아동의 개인 식별 정보를 고의로 수집하지 않습니다. 해당 정보가 제공된 사실을 알게 되는 경우 가능한 한 빨리 삭제합니다.
 
-### 동의 (Your Consent)
+### 보안
 
-애플리케이션을 사용함으로써 귀하는 본 개인정보처리방침에 명시된 정보 처리에 동의하는 것으로 간주됩니다.
+서비스 제공자는 사용자 정보 보호를 중요하게 생각합니다. 다만 전자적 저장 또는 인터넷 전송 방식은 100% 안전하다고 보장할 수 없으므로 절대적인 보안을 보장할 수는 없습니다.
 
-### 문의하기 (Contact Us)
+### 변경 사항
 
-애플리케이션 사용 중 개인정보 보호와 관련하여 질문이 있거나 관행에 대한 문의가 있는 경우, 이메일(**by.ochotona@gmail.com**)을 통해 서비스 제공자에게 문의해 주시기 바랍니다.
+본 개인정보처리방침은 수시로 업데이트될 수 있습니다. 사용자는 변경 사항 확인을 위해 본 페이지를 정기적으로 검토하는 것이 좋습니다.
+
+**시행일:** 2026년 8월 14일
+
+### 문의하기
+
+애플리케이션 사용 중 개인정보 보호와 관련하여 질문이 있는 경우 **by.ochotona@gmail.com**으로 문의해 주시기 바랍니다.
