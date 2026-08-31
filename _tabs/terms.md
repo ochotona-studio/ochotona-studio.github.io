@@ -12,6 +12,7 @@ Select an application to view its Terms & Conditions:
 
 ## Applications
 
+*   **[ShotLeaf](/terms/shotleaf/)**
 *   **[PikaGo](/terms/pikago/)**
 *   **[pika pick](/terms/pika-pick/)**
 *   **[aura:pureplay](/terms/pureplay/)**

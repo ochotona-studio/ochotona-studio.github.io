@@ -7,6 +7,11 @@
         {%- capture avatar_url -%}
           {% include media-url.html src=site.avatar %}
         {%- endcapture -%}
+        {%- assign avatar_file = site.static_files | where: 'path', site.avatar | first -%}
+        {%- if avatar_file -%}
+          {%- assign avatar_version = avatar_file.modified_time | date: '%s' -%}
+          {%- assign avatar_url = avatar_url | append: '?v=' | append: avatar_version -%}
+        {%- endif -%}
         <img src="{{- avatar_url -}}" width="112" height="112" alt="avatar" onerror="this.style.display='none'">
       {%- endif -%}
     </a>

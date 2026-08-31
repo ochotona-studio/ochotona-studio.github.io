@@ -12,6 +12,7 @@ Select an application to view its Privacy Policy:
 
 ## Applications
 
+*   **[ShotLeaf](/privacy/shotleaf/)**
 *   **[PikaGo](/privacy/pikago/)**
 *   **[pika pick](/privacy/pika-pick/)**
 *   **[aura:pureplay](/privacy/pureplay/)**

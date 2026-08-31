@@ -1,6 +1,15 @@
 # 앱 목록 데이터 파일
 # 각 앱의 정보를 정의하여 Apps 페이지에서 카드 형태로 표시
 
+# ShotLeaf - 사진 프레임 및 콜라주 앱
+- title: "ShotLeaf"
+  slug: "shotleaf"
+  description: "사진에 프레임과 촬영정보를 더하고, 여러 장의 사진을 콜라주로 완성하는 사진 편집 앱."
+  url: "/apps/shotleaf/"
+  image: "/assets/img/apps/shotleaf/screenshot_editor.jpeg"
+  status: "개발중"
+  category: "사진"
+
 # PikaGo - 실시간 대중교통 도착 정보 앱
 - title: "PikaGo"
   slug: "pikago"
