@@ -24,6 +24,7 @@ search:
 
 panel:
   lastmod: Recently Updated
+  app_list: App List
   trending_tags: Trending Tags
   toc: Contents
 

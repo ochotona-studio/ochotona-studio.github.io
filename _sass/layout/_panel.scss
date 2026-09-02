@@ -57,7 +57,8 @@
   }
 }
 
-#access-lastmod {
+#access-lastmod,
+#access-apps {
   a {
     color: inherit;
 
@@ -67,4 +68,13 @@
 
     @extend %no-bottom-border;
   }
+}
+
+#access-lastmod + #access-apps {
+  margin-top: 2.5rem;
+}
+
+#access-apps i {
+  color: var(--text-muted-color);
+  font-size: 0.8rem;
 }
