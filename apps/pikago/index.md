@@ -1,11 +1,11 @@
 ---
 # PikaGo 상세 페이지
 layout: page
-title: "PikaGo"
+title: "PikaGo - 버스·지하철 도착정보 앱"
 permalink: /apps/pikago/
 ---
 
-# PikaGo
+# PikaGo - 버스·지하철 도착정보 앱
 
 **즐겨찾는 버스와 지하철의 실시간 도착 정보를 빠르게 확인하는 교통 앱**
 
@@ -47,16 +47,16 @@ PikaGo는 무겁고 복잡한 길찾기 앱을 열지 않아도, 내가 자주 �
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; align-items: start;">
   <figure style="margin: 0;">
-    <img src="/assets/img/apps/pikago/screenshot_home.png" alt="PikaGo 홈 도착 정보 화면" style="width: 100%; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
-    <figcaption style="text-align: center; margin-top: 8px;">즐겨찾는 도착 정보</figcaption>
+    <img src="/assets/img/apps/pikago/screenshot_home.jpg" alt="PikaGo 버스와 지하철 도착 정보 화면" style="width: 100%; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+    <figcaption style="text-align: center; margin-top: 8px;">버스·지하철 도착 정보</figcaption>
   </figure>
   <figure style="margin: 0;">
-    <img src="/assets/img/apps/pikago/screenshot_add_favorite.png" alt="PikaGo 즐겨찾기 추가 화면" style="width: 100%; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
-    <figcaption style="text-align: center; margin-top: 8px;">즐겨찾기 추가</figcaption>
+    <img src="/assets/img/apps/pikago/screenshot_search.jpg" alt="PikaGo 도시 및 교통수단 선택 화면" style="width: 100%; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+    <figcaption style="text-align: center; margin-top: 8px;">도시 및 교통수단 선택</figcaption>
   </figure>
   <figure style="margin: 0;">
-    <img src="/assets/img/apps/pikago/screenshot_settings.png" alt="PikaGo 위젯 설정 화면" style="width: 100%; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
-    <figcaption style="text-align: center; margin-top: 8px;">위젯 설정</figcaption>
+    <img src="/assets/img/apps/pikago/screenshot_widget.jpg" alt="Android 홈 화면에 배치한 PikaGo 위젯" style="width: 100%; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+    <figcaption style="text-align: center; margin-top: 8px;">홈 화면 위젯</figcaption>
   </figure>
 </div>
 
@@ -73,7 +73,7 @@ PikaGo는 무겁고 복잡한 길찾기 앱을 열지 않아도, 내가 자주 �
 
 ## 다운로드
 
-현재 개발 중입니다. 출시되면 이곳에서 다운로드 링크를 확인하실 수 있습니다.
+<a href="https://play.google.com/store/apps/details?id=com.ochotona.transit" class="btn btn-primary" target="_blank" rel="noopener">Google Play에서 다운로드</a>
 
 ---
 

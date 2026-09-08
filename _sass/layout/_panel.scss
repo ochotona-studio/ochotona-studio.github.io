@@ -74,7 +74,30 @@
   margin-top: 2.5rem;
 }
 
-#access-apps i {
-  color: var(--text-muted-color);
-  font-size: 0.8rem;
+#access-apps {
+  .app-list-group {
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--main-border-color);
+
+    &:first-child {
+      padding-top: 0;
+      border-top: 0;
+    }
+
+    & + .app-list-group {
+      margin-top: 0.75rem;
+    }
+  }
+
+  .app-list-group__title {
+    margin: 0 0 0.25rem;
+    color: var(--text-muted-color);
+    font-size: 0.75rem;
+    font-weight: 600;
+  }
+
+  i {
+    color: var(--text-muted-color);
+    font-size: 0.8rem;
+  }
 }

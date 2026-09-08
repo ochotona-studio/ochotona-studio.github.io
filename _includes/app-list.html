@@ -1,20 +1,62 @@
 {% assign visible_apps = site.data.apps | where_exp: 'app', 'app.hidden != true' %}
+{% assign released_apps = visible_apps | where: 'status', 'Google Play 출시' %}
+{% assign preparing_apps = visible_apps | where_exp: 'app', "app.status == '출시준비중' or app.status == '출시 준비 중'" %}
+{% assign developing_apps = visible_apps | where: 'status', '개발중' %}
 
 {% if visible_apps.size > 0 %}
   {% assign app_list_label = site.data.locales[include.lang].panel.app_list | default: 'App List' %}
 
   <section id="access-apps">
     <h2 class="panel-heading">{{- app_list_label -}}</h2>
-    <ul class="content list-unstyled ps-0 pb-1 ms-1 mt-2">
-      {% for app in visible_apps %}
-        <li class="lh-lg">
-          <a href="{{ app.url | relative_url }}" class="d-flex align-items-center">
-            <i class="fas fa-mobile-alt fa-fw me-2" aria-hidden="true"></i>
-            <span class="text-truncate">{{ app.title }}</span>
-          </a>
-        </li>
-      {% endfor %}
-    </ul>
+    <div class="app-list-groups ms-1 mt-2">
+      {% if released_apps.size > 0 %}
+        <div class="app-list-group">
+          <h3 class="app-list-group__title">배포 중</h3>
+          <ul class="content list-unstyled ps-0 mb-0">
+            {% for app in released_apps %}
+              <li class="lh-lg">
+                <a href="{{ app.url | relative_url }}" class="d-flex align-items-center">
+                  <i class="fas fa-check-circle fa-fw me-2" aria-hidden="true"></i>
+                  <span class="text-truncate">{{ app.title }}</span>
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
+
+      {% if preparing_apps.size > 0 %}
+        <div class="app-list-group">
+          <h3 class="app-list-group__title">출시 준비 중</h3>
+          <ul class="content list-unstyled ps-0 mb-0">
+            {% for app in preparing_apps %}
+              <li class="lh-lg">
+                <a href="{{ app.url | relative_url }}" class="d-flex align-items-center">
+                  <i class="fas fa-clock fa-fw me-2" aria-hidden="true"></i>
+                  <span class="text-truncate">{{ app.title }}</span>
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
+
+      {% if developing_apps.size > 0 %}
+        <div class="app-list-group">
+          <h3 class="app-list-group__title">개발 중</h3>
+          <ul class="content list-unstyled ps-0 mb-0">
+            {% for app in developing_apps %}
+              <li class="lh-lg">
+                <a href="{{ app.url | relative_url }}" class="d-flex align-items-center">
+                  <i class="fas fa-code fa-fw me-2" aria-hidden="true"></i>
+                  <span class="text-truncate">{{ app.title }}</span>
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
+    </div>
   </section>
   <!-- #access-apps -->
 {% endif %}
