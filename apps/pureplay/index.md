@@ -5,8 +5,6 @@ title: "aura:pureplay"
 permalink: /apps/pureplay/
 ---
 
-# aura:pureplay
-
 **순수하게 음악 재생에 집중하는 MP3 플레이어**
 
 aura:pureplay는 이름 그대로 '순수한 재생(Pure Play)'에 집중한 오디오 플레이어 앱입니다.

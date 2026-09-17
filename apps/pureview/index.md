@@ -5,8 +5,6 @@ title: "aura:pureview"
 permalink: /apps/pureview/
 ---
 
-# aura:pureview
-
 **사진 앨범을 디지털 액자처럼 감상하는 이미지 뷰어**
 
 aura:pureview는 이름 그대로 '순수한 보기(Pure View)'에 집중한 사진 감상 앱입니다.
