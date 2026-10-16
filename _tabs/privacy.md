@@ -12,6 +12,7 @@ Select an application to view its Privacy Policy:
 
 ## Applications
 
+*   **[아이진료ON (KidsMedOn)](/privacy/kidsmedon/)**
 *   **[ShotLeaf](/privacy/shotleaf/)**
 *   **[PikaGo](/privacy/pikago/)**
 *   **[pika pick](/privacy/pika-pick/)**

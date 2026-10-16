@@ -12,6 +12,7 @@ Select an application to view its Terms & Conditions:
 
 ## Applications
 
+*   **[아이진료ON (KidsMedOn)](/terms/kidsmedon/)**
 *   **[ShotLeaf](/terms/shotleaf/)**
 *   **[PikaGo](/terms/pikago/)**
 *   **[pika pick](/terms/pika-pick/)**
