@@ -1,0 +1,63 @@
+---
+layout: null
+permalink: /review/aura-pureplay/media-playback/
+sitemap: false
+search: false
+swcache: false
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, nofollow, noarchive">
+    <title>aura:pureplay - Media Playback Demonstration</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        font-family: system-ui, sans-serif;
+        line-height: 1.5;
+      }
+
+      body {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 24px 16px;
+      }
+
+      h1 {
+        margin: 0 0 8px;
+        font-size: 24px;
+        overflow-wrap: anywhere;
+      }
+
+      p {
+        margin: 0 0 20px;
+      }
+
+      video {
+        display: block;
+        width: 100%;
+        height: auto;
+        max-height: 75vh;
+        margin: 0 auto 20px;
+        background: #000;
+      }
+
+      a {
+        color: LinkText;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>aura:pureplay</h1>
+      <p id="video-description">Media playback foreground service demonstration: starting audio playback, background playback, and system media controls.</p>
+      <video controls playsinline preload="metadata" width="1080" height="1298" aria-label="aura:pureplay media playback demonstration" aria-describedby="video-description">
+        <source src="{{ '/assets/video/review/aura-pureplay/media-playback-2026-11-05.mp4' | relative_url }}" type="video/mp4">
+        Your browser does not support embedded video. Use the MP4 link below.
+      </video>
+      <p><a href="{{ '/assets/video/review/aura-pureplay/media-playback-2026-11-05.mp4' | relative_url }}">Open MP4 video</a></p>
+    </main>
+  </body>
+</html>
